@@ -86,12 +86,9 @@ SELECT
     m.id AS match_no,
     d.bowling_team,
     SUM(d.extra_runs) AS extras
-FROM
-    matches AS m
-        JOIN
-    deliveries AS d ON d.match_id = m.id
-WHERE
-    extra_runs > 0
+FROM matches AS m JOIN
+deliveries AS d ON d.match_id = m.id
+WHERE extra_runs > 0
 GROUP BY m.id , d.bowling_team;
 
 #Q11: Bowler having best bowling figures in a single match
@@ -106,7 +103,7 @@ LIMIT 1;
 #Q12: Matches resulted in a win in each city
 SELECT m.city,
 CASE 
-	WHEN m.team1 = m.winner THEN m.team1
+    WHEN m.team1 = m.winner THEN m.team1
     WHEN m.team2 = m.winner THEN m.team2
     ELSE 'draw' END AS winning_team,
 COUNT(*) AS wins
