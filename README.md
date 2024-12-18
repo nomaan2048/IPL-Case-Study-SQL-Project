@@ -2,9 +2,9 @@
 
 ![IPL Thumbnail](https://github.com/user-attachments/assets/78d0e56c-b3d6-4b67-aa76-c643da848499)
 
-In this project, we will analyze IPL cricket data to uncover insights into team performances, player statistics, and match outcomes.
+In this project, we will analyze IPL cricket data to find out the insights into team performances, player statistics, and match outcomes.
 
-🏏 We will use SQL to extract, transform, and analyze data from match-level and ball-by-ball datasets.
+🏏 We will use SQL to analyze data from match-level and ball-by-ball datasets.
 
 🏏 The analysis will provide insights into key areas such as the most successful players, team strategies, and factors influencing match results.
 
