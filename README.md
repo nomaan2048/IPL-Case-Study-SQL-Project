@@ -32,3 +32,8 @@ This project utilizes IPL cricket data from two CSV files, providing match-level
 - Aggregate Functions
 
 # IMPORTANT INSIGHTS:-
+- Andre Russell has the highest strike rate among batsmen who scored at least 200 runs.
+- Kings XI Punjab (21.73) and Rajasthan Royals (21.50) were the most boundary-hitting teams, while Royal Challengers Bangalore had the lowest average (17.57).
+- Chennai Super Kings (18.67) and Mumbai Indians (19.50) led in boundaries, whereas Rajasthan Royals struggled with an average of only 11.
+- Yusuf Pathan and Shaun Marsh have each won the "Player of the Match" award 5 times, showcasing their consistent match-winning performances. Shane Watson follows closely with 4 awards, highlighting his all-round contributions to his team's success.
+- Brendon McCullum scored an unbeaten 158 runs off 73 balls for Kolkata Knight Riders (KKR) against Royal Challengers Bangalore (RCB) in the inaugural IPL match on April 18, 2008, at Bengaluru. His innings included 10 fours and 13 sixes, achieving a strike rate of 216.43
